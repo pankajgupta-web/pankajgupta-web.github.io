@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pankaj Gupta | Senior Java Platform Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --text: #111;
+      --muted: #444;
+      --rule: #000;
+      --bg: #fff;
+      --max: 980px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    a { color: inherit; text-decoration: underline; }
+    a:hover { text-decoration: none; }
+
+    .container {
+      max-width: var(--max);
+      margin: 20px auto;
+      padding: 28px 32px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #bbb;
+      margin-bottom: 18px;
+    }
+    .name {
+      font-size: 30px;
+      line-height: 1.1;
+      margin: 0 0 6px 0;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+    .headline {
+      margin: 0 0 8px 0;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    .contact {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .contact span { white-space: nowrap; }
+
+    /* Sections */
+    h2 {
+      font-size: 16px;
+      margin: 20px 0 10px 0;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--rule);
+      letter-spacing: 0.2px;
+    }
+
+    h3 {
+      font-size: 14px;
+      margin: 14px 0 6px 0;
+      font-weight: 700;
+    }
+
+    p { margin: 6px 0; }
+
+    ul {
+      margin: 6px 0 0 18px;
+      padding: 0;
+    }
+    li { margin: 0 0 6px 0; }
+
+    /* Two-column blocks */
+    .row {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .col { flex: 1 1 340px; }
+
+    /* Experience layout */
+    .job {
+      margin-top: 10px;
+    }
+    .job-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+    .job-title {
+      font-weight: 700;
+    }
+    .job-meta {
+      color: var(--muted);
+      font-style: italic;
+      white-space: nowrap;
+    }
+
+    /* Compact label list */
+    .pill-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .pill-list li {
+      margin: 0 0 8px 0;
+    }
+    .label {
+      font-weight: 700;
+    }
+
+    /* Small notes */
+    .muted { color: var(--muted); }
+
+    /* Print-friendly */
+    @media print {
+      body { font-size: 12px; }
+      .container { margin: 0; padding: 18px 22px; }
+      a { text-decoration: none; }
+      .header { border-bottom: 1px solid #999; }
+      h2 { border-bottom: 1px solid #000; }
+      .job-meta { white-space: normal; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h1 class="name">Pankaj Gupta</h1>
+      <p class="headline">Senior Java Platform Engineer | Open Banking (PSD2) | API Security | Architecture</p>
+      <p class="contact">
+        <span>📧 pankaj.gupta1206@gmail.com</span> &nbsp;|&nbsp;
+        <span>📞 +91-9999897543</span> &nbsp;|&nbsp;
+        <span><a href="https://www.linkedin.com/in/pankaj-gupta-77186239/" target="_blank" rel="noopener">LinkedIn</a></span>
+      </p>
+    </div>
+
+    <!-- SUMMARY -->
+    <h2>Professional Summary</h2>
+    <p>
+      Senior Java Platform Engineer with 13+ years of experience building and supporting secure, mission-critical
+      backend platforms across banking, payments, and telecom. Currently working as a Project Lead on PSD2 Open Banking
+      platforms with strong ownership of API security, regulatory compliance, production stability, and architectural decisions.
+      Experienced in designing resilient microservices, enforcing API governance standards, driving vulnerability remediation,
+      and translating complex regulatory needs into scalable, maintainable technical solutions.
+    </p>
+
+    <!-- SKILLS -->
+    <h2>Core Technical Skills</h2>
+    <div class="row">
+      <div class="col">
+        <ul class="pill-list">
+          <li><span class="label">Backend & Architecture:</span> Java, Spring Boot, Microservices, REST APIs, JDBC, Hibernate</li>
+          <li><span class="label">API & Integration:</span> Mule ESB, OAuth2, OpenAPI, PSD2 APIs</li>
+          <li><span class="label">Security & Compliance:</span> PSD2 / Open Banking, QWAC/QSealC, mTLS, Certificate Validation, CVE Analysis & Remediation, CSP</li>
+          <li><span class="label">API Governance:</span> Spectral, OpenAPI Linting, YAML / JSON Validation</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="pill-list">
+          <li><span class="label">Cloud & Platform:</span> Kubernetes, Docker, GraalVM Native Image</li>
+          <li><span class="label">Build & DevOps:</span> Gradle, Maven, GitLab CI/CD, Custom Gradle Plugins</li>
+          <li><span class="label">Observability:</span> Splunk, Centralized Logging, Production Debugging</li>
+          <li><span class="label">Databases & Tools:</span> Oracle, MySQL | IntelliJ, VS Code, STS, Eclipse, Anypoint Studio</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- LEADERSHIP -->
+    <h2>Architecture & Leadership</h2>
+    <ul>
+      <li>Own backend and API architecture decisions for regulated Open Banking (PSD2) platforms.</li>
+      <li>Design secure authentication and authorization mechanisms using OAuth2 and mutual TLS (mTLS).</li>
+      <li>Lead vulnerability assessment, remediation planning, and security hardening across services.</li>
+      <li>Drive API governance: contract enforcement, OpenAPI linting, and validation standards.</li>
+      <li>Ensure platform reliability through production support, root-cause analysis, and stability improvements.</li>
+      <li>Optimize performance using GraalVM native executables where applicable.</li>
+      <li>Mentor engineers and conduct architecture, design, and code reviews.</li>
+      <li>Collaborate with security, DevOps, and product teams across environments and tenants.</li>
+    </ul>
+
+    <!-- EXPERIENCE -->
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-head">
+        <div class="job-title">Sopra Banking Software — Project Lead</div>
+        <div class="job-meta">Dec 2021 – Present</div>
+      </div>
+      <ul>
+        <li>Lead development and support of PSD2 Open Banking APIs for regulated banking clients and multi-tenant environments.</li>
+        <li>Drive production stability: incident triage, root-cause analysis, and preventive improvements.</li>
+        <li>Implement security controls including OAuth2 flows, certificate validation, and compliance-related enhancements.</li>
+        <li>Own vulnerability remediation activities and coordinate fixes across services and CI/CD pipelines.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div class="job-title">Lumen Technologies (CenturyLink) — Senior Software Engineer</div>
+        <div class="job-meta">Dec 2018 – Nov 2021</div>
+      </div>
+      <ul>
+        <li>Worked on large-scale telecom backend systems and workflow platforms used for dispatch and provisioning.</li>
+        <li>Built service orchestration components integrating multiple backend systems for operational workflows.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div class="job-title">HCL Technologies — Software Engineer</div>
+        <div class="job-meta">Dec 2016 – Dec 2018</div>
+      </div>
+      <ul>
+        <li>Delivered enterprise solutions in the payments domain with a focus on reliability and integration.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div class="job-title">SapientNitro — Senior Associate</div>
+        <div class="job-meta">Mar 2016 – Dec 2016</div>
+      </div>
+      <ul>
+        <li>Developed enterprise integration solutions using Mule ESB and supported delivery for client systems.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div class="job-title">Telemune Software Solutions — Software Engineer</div>
+        <div class="job-meta">Jun 2012 – Feb 2016</div>
+      </div>
+      <ul>
+        <li>Built telecom VAS platforms and high-throughput backend services with configurable rule-based behavior.</li>
+      </ul>
+    </div>
+
+    <!-- PROJECTS -->
+    <h2>Key Projects & Architecture Highlights</h2>
+
+    <h3>Open Banking – PSD2 Platform</h3>
+    <p>
+      Architected and enhanced PSD2-compliant APIs with emphasis on security, regulatory compliance, and platform resilience.
+      Implemented OAuth2 authentication, QWAC/QSealC certificate validation, API governance using Spectral,
+      Kafka header migrations, and CronJob optimizations across banking tenants.
+    </p>
+
+    <h3>Marketplace Reporting Platform (GraalVM)</h3>
+    <p>
+      Designed and developed a reporting platform using GraalVM native executables to improve startup time and reduce runtime footprint.
+      Addressed native-image constraints, dependency optimizations, and production-grade logging strategies.
+    </p>
+
+    <h3>Tcases Automation & Custom Gradle Plugin</h3>
+    <p>
+      Extended Tcases automation with OAuth2-based authentication and functional test integration.
+      Built a custom Gradle plugin to improve reuse, CI/CD integration, and automation coverage.
+    </p>
+
+    <h3>Spectral & OpenAPI Governance Framework</h3>
+    <p>
+      Implemented Spectral validations to enforce API standards and improve OpenAPI contract correctness through YAML/JSON validations.
+    </p>
+
+    <h3>Marketplace Validation & Compliance Tools</h3>
+    <p>
+      Built validation utilities for YAML and JSON configurations to ensure schema correctness, regulatory alignment, and platform consistency across services.
+    </p>
+
+    <h3>Telecom Workflow & Backend Platforms</h3>
+    <ul>
+      <li><strong>Dispatch Gateway Workflow (DGW):</strong> Workflow platform for dispatch, provisioning, billing, and repair orchestration integrating multiple backend systems.</li>
+      <li><strong>Dispatch Services Microservice:</strong> Backend services bridging telecom interfaces to enable provisioning and fulfillment.</li>
+      <li><strong>CRBT Rule Engine:</strong> Configurable rule engine using Java and state-machine concepts for multiple telecom operators.</li>
+      <li><strong>Miss Call Alert & Selfcare:</strong> Backend services supporting missed-call notifications and self-service platforms.</li>
+    </ul>
+
+    <!-- EDUCATION -->
+    <h2>Education</h2>
+    <ul>
+      <li>Intermediate (CBSE) – 84.20% (94% in Mathematics)</li>
+      <li>Matriculation (CBSE) – 78.40% (91% in Mathematics)</li>
+    </ul>
+
+    <!-- TRAINING -->
+    <h2>Certifications & Training</h2>
+    <ul>
+      <li>Embedded Robotics – MITBOTS</li>
+      <li>Basic Introduction to Broadcasting – Dish TV India</li>
+      <li>Infosys Campus Connect Program – Certified</li>
+    </ul>
+
+    <p class="muted" style="margin-top:16px;">
+      Tip: If you want this to look even more “architect-level”, we can add a small “Selected Achievements” section with 4–6 quantified bullets.
+    </p>
+
+  </div>
+</body>
+</html>
